@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Reproducible Research - Programming assignment 1
 ========================================================
 
@@ -36,10 +37,18 @@ Because we can't make any assumption about our missingness mechanism(s), we can'
 ```{r, echo = TRUE}
 table <- na.omit(table)
 ```
+=======
+# Reproducible Research: Peer Assessment 1
+
+
+## Loading and preprocessing the data
+
+>>>>>>> dc20c7c4e92aea6af318a611e2669d5b9c6cbfaf
 
 
 ## What is mean total number of steps taken per day?
 
+<<<<<<< HEAD
 ```{r, echo = TRUE}
 stepsByDay <- aggregate(table[, 1], list(table[, 2]), sum)
 stepsByDay <- aggregate(table[, 1], list(table[, 2]), sum)
@@ -105,3 +114,16 @@ plot(intervalsSUN[, 2]~intervalsSUN[, 1], type="l", main = "Sunday", xlab = "Int
 plot(intervalsSAT[, 2]~intervalsSAT[, 1], type="l", main = "Saturday", xlab = "Interval", ylab = "Mean activity")
 plot(intervalsWD[, 2]~intervalsWD[, 1], type="l", main = "Weekdays", xlab = "Interval", ylab = "Mean activity")
 ```
+=======
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> dc20c7c4e92aea6af318a611e2669d5b9c6cbfaf
